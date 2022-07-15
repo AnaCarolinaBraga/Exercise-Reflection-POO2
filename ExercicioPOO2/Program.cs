@@ -34,8 +34,9 @@ namespace ExercicioPOO2
                     var university = instance.University;
                     var number = instance.RollNumber;
 
-                    var operations = new Student(name, university, number);
-                    DisplayPublicProperties(operations);
+                    var newStudente = new Student(name, university, number);
+                    DisplayPublicProperties(newStudente);
+                    newStudente.DisplayInfo();
                 }
             }
 
